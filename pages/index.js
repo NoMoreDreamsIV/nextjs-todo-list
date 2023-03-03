@@ -1,6 +1,6 @@
-import { TodoForm } from './todoform.js'
-import { Todo } from './todo.js'
-import './style.css'
+import { TodoForm } from '.components/todoform.js'
+import { Todo } from '.components/todo.js'
+import '/style.css'
 
 export default function App() {
   const [todos, setTodos] = React.useState([])
